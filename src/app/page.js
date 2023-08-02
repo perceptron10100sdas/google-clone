@@ -6,6 +6,7 @@ import HomeSearch from '@sambhav/components/HomeSearch';
 export default function home() {
   return (
     <>
+    
     <HomeHeader/>
     <div className="flex flex-col items-center mt-24">
     <Image
@@ -14,8 +15,9 @@ export default function home() {
       src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/640px-Google_2015_logo.svg.png"
     />
 <HomeSearch/>
+</div>
     
-  </div>
+  
   </>
   )
 }
