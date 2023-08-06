@@ -6,8 +6,9 @@ import HomeSearch from '@sambhav/components/HomeSearch';
 export default function home() {
   return (
     <>
-     <div class="h-14 bg-gradient-to-r from-purple-500 to-pink-500"></div>
+     <div class="h-14 bg-gradient-to-r from-purple-500 to-pink-500">
     <HomeHeader/>
+</div>
     <div className="flex flex-col items-center mt-24">
     <Image
       width="300"
