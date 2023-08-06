@@ -16,10 +16,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="relative min-h-screen" >
        
-      <div class="h-14 bg-gradient-to-r from-purple-500 to-pink-500">
+     
 
         {children}
-        </div>
+        
         <Footer/>
         </body>
     </html>

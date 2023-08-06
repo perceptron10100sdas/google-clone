@@ -6,7 +6,7 @@ import HomeSearch from '@sambhav/components/HomeSearch';
 export default function home() {
   return (
     <>
-    
+     <div class="h-14 bg-gradient-to-r from-purple-500 to-pink-500"></div>
     <HomeHeader/>
     <div className="flex flex-col items-center mt-24">
     <Image
@@ -16,7 +16,7 @@ export default function home() {
     />
 <HomeSearch/>
 </div>
-    
+
   
   </>
   )
